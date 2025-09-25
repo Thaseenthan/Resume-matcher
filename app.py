@@ -5,7 +5,7 @@ import docx2txt
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# ========= Helper functions =========
+# ========= Helper functions ==========
 def extract_text_from_pdf(file):
     text = ""
     reader = PyPDF2.PdfReader(file)
